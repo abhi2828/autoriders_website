@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from jthemes.org/html/rentit/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Jan 2021 06:38:16 GMT -->
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Autoriders</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/logo-sm-BK.png">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+
+    <!-- CSS Global -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/plugins/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="assets/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/plugins/prettyphoto/css/prettyPhoto.css" rel="stylesheet">
+    <link href="assets/plugins/owl-carousel2/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/plugins/owl-carousel2/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="assets/plugins/animate/animate.min.css" rel="stylesheet">
+    <link href="assets/plugins/swiper/css/swiper.min.css" rel="stylesheet">
+    <link href="assets/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="assets/css/theme.css" rel="stylesheet">
+    <link href="assets/css/theme-red-1.css" rel="stylesheet" id="theme-config-link">
+
+    <!-- Head Libs -->
+    <script src="assets/plugins/modernizr.custom.js"></script>
+
+    
+</head>
+<body id="home" class="wide">
+<!-- PRELOADER -->
+<!-- <div id="preloader">
+    <div id="preloader-status">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+        <div id="preloader-title">Loading</div>
+    </div>
+</div> -->
+<!-- /PRELOADER -->
+
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div role="tabpanel" class="tab-pane fade in active" id="self">
+    <div class="col-md-5">
+        <div class="caption-content">
+            <!-- Search form -->
+            <div class="form-search light">
+                <form action="#">
+                    <div class="form-title">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item active">
+                              <a class="nav-link active" href="#self" role="tab" data-toggle="tab" aria-expanded="true">SELF DRIVE</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#chauffer" role="tab" data-toggle="tab">Chauffer </a>
+                            </li>
+                          </ul>
+                    </div>
+
+                    <div class="row row-inputs">
+                        <div class="container-fluid">
+                            <div class="col-sm-12">
+                                <div class="form-group has-icon has-label">
+                                    <label for="formSearchOffLocation3">Picking Up Location</label>
+                                    <select class="form-control">
+                                        <option>Default select</option>
+                                        <option>select 1</option>
+                                        <option>select 2</option>
+                                        <option>select 3</option>
+                                        <option>select 4</option>
+                                        <option>select 5</option>                                                            
+                                      </select>                                                        
+                                </div>
+                                <span class="form-control-icon"><i class="fa fa-caret-down"></i></span>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group has-icon has-label">
+                                    <label for="formSearchOffLocation3">Dropping Off Location</label>
+                                    <input type="text" class="form-control" id="formSearchOffLocation3" placeholder="Airport or Anywhere">
+                                    <span class="form-control-icon"><i class="fa fa-map-marker"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row row-inputs">
+                        <div class="container-fluid">
+                            <div class="col-sm-7">
+                                <div class="form-group has-icon has-label">
+                                    <label for="formSearchUpDate3">Picking Up Date</label>
+                                    <input type="text" class="form-control datepicker" id="formSearchUpDate3" placeholder="dd/mm/yyyy">
+                                    <span class="form-control-icon"><i class="fa fa-calendar"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-5">
+                                <div class="form-group has-icon has-label selectpicker-wrapper">
+                                    <label>Picking Up Hour</label>
+                                    <select
+                                            class="selectpicker input-price" data-live-search="true" data-width="100%"
+                                            data-toggle="tooltip" title="Select">
+                                        <option>20:00 AM</option>
+                                        <option>21:00 AM</option>
+                                        <option>22:00 AM</option>
+                                    </select>
+                                    <span class="form-control-icon"><i class="fa fa-clock-o"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row row-inputs">
+                        <div class="container-fluid">
+                            <div class="col-sm-7">
+                                <div class="form-group has-icon has-label">
+                                    <label for="formSearchOffDate3">Dropping Off Date</label>
+                                    <input type="text" class="form-control datepicker" id="formSearchOffDate3" placeholder="dd/mm/yyyy">
+                                    <span class="form-control-icon"><i class="fa fa-calendar"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-5">
+                                <div class="form-group has-icon has-label selectpicker-wrapper">
+                                    <label>Dropping Off Hour</label>
+                                    <select
+                                            class="selectpicker input-price" data-live-search="true" data-width="100%"
+                                            data-toggle="tooltip" title="Select">
+                                        <option>20:00 AM</option>
+                                        <option>21:00 AM</option>
+                                        <option>22:00 AM</option>
+                                    </select>
+                                    <span class="form-control-icon"><i class="fa fa-clock-o"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row row-submit">
+                        <div class="container-fluid">
+                            <div class="inner">
+                                <i class="fa fa-plus-circle"></i> <a href="#">Advanced Search</a>
+                                <button type="submit" id="formSearchSubmit3" class="btn btn-submit ripple-effect btn-theme pull-right">Find Car</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- /Search form -->
+        </div>
+    </div>
+      
+  </div>
+  <div role="tabpanel" class="tab-pane fade" id="chauffer">
+    <div class="col-md-5">
+        <div class="caption-content">
+            <!-- Search form -->
+            <div class="form-search light">
+                <form action="#">
+                    <div class="form-title">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item active">
+                              <a class="nav-link active" href="#self" role="tab" data-toggle="tab" aria-expanded="true">SELF DRIVE</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#chauffer" role="tab" data-toggle="tab">Chauffer </a>
+                            </li>
+                          </ul>
+                    </div>
+
+                    <div class="row row-inputs">
+                        <div class="container-fluid">
+                            <div class="col-sm-12">
+                                <div class="form-group has-icon has-label">
+                                    <label for="formSearchOffLocation3">Picking Up Location</label>
+                                    <select class="form-control">
+                                        <option>Default select</option>
+                                        <option>select 1</option>
+                                        <option>select 2</option>
+                                        <option>select 3</option>
+                                        <option>select 4</option>
+                                        <option>select 5</option>                                                            
+                                      </select>                                                        
+                                </div>
+                                <span class="form-control-icon"><i class="fa fa-caret-down"></i></span>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group has-icon has-label">
+                                    <label for="formSearchOffLocation3">Dropping Off Location</label>
+                                    <input type="text" class="form-control" id="formSearchOffLocation3" placeholder="Airport or Anywhere">
+                                    <span class="form-control-icon"><i class="fa fa-map-marker"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row row-inputs">
+                        <div class="container-fluid">
+                            <div class="col-sm-7">
+                                <div class="form-group has-icon has-label">
+                                    <label for="formSearchUpDate3">Picking Up Date</label>
+                                    <input type="text" class="form-control datepicker" id="formSearchUpDate3" placeholder="dd/mm/yyyy">
+                                    <span class="form-control-icon"><i class="fa fa-calendar"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-5">
+                                <div class="form-group has-icon has-label selectpicker-wrapper">
+                                    <label>Picking Up Hour</label>
+                                    <select
+                                            class="selectpicker input-price" data-live-search="true" data-width="100%"
+                                            data-toggle="tooltip" title="Select">
+                                        <option>20:00 AM</option>
+                                        <option>21:00 AM</option>
+                                        <option>22:00 AM</option>
+                                    </select>
+                                    <span class="form-control-icon"><i class="fa fa-clock-o"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row row-inputs">
+                        <div class="container-fluid">
+                            <div class="col-sm-7">
+                                <div class="form-group has-icon has-label">
+                                    <label for="formSearchOffDate3">Dropping Off Date</label>
+                                    <input type="text" class="form-control datepicker" id="formSearchOffDate3" placeholder="dd/mm/yyyy">
+                                    <span class="form-control-icon"><i class="fa fa-calendar"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-5">
+                                <div class="form-group has-icon has-label selectpicker-wrapper">
+                                    <label>Dropping Off Hour</label>
+                                    <select
+                                            class="selectpicker input-price" data-live-search="true" data-width="100%"
+                                            data-toggle="tooltip" title="Select">
+                                        <option>20:00 AM</option>
+                                        <option>21:00 AM</option>
+                                        <option>22:00 AM</option>
+                                    </select>
+                                    <span class="form-control-icon"><i class="fa fa-clock-o"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row row-submit">
+                        <div class="container-fluid">
+                            <div class="inner">
+                                <i class="fa fa-plus-circle"></i> <a href="#">Advanced Search</a>
+                                <button type="submit" id="formSearchSubmit3" class="btn btn-submit ripple-effect btn-theme pull-right">Find Car</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- /Search form -->
+        </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- /WRAPPER -->
+
+<!-- JS Global -->
+<script src="assets/plugins/jquery/jquery-1.11.1.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+<script src="assets/plugins/superfish/js/superfish.min.js"></script>
+<script src="assets/plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
+<script src="assets/plugins/owl-carousel2/owl.carousel.min.js"></script>
+<script src="assets/plugins/jquery.sticky.min.js"></script>
+<script src="assets/plugins/jquery.easing.min.js"></script>
+<script src="assets/plugins/jquery.smoothscroll.min.js"></script>
+<!--<script src="assets/plugins/smooth-scrollbar.min.js"></script>-->
+<!--<script src="assets/plugins/wow/wow.min.js"></script>-->
+<script>
+    // WOW - animated content
+    //new WOW().init();
+</script>
+<script src="assets/plugins/swiper/js/swiper.jquery.min.js"></script>
+<script src="assets/plugins/datetimepicker/js/moment-with-locales.min.js"></script>
+<script src="assets/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+
+<!-- JS Page Level -->
+<script src="assets/js/theme-ajax-mail.js"></script>
+<script src="assets/js/theme.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+
+
+</body>
+
+<!-- Mirrored from jthemes.org/html/rentit/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Jan 2021 06:39:20 GMT -->
+</html>
